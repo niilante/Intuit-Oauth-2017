@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= 'Intuit Oauth using Node JS'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://appcenter.intuit.com/Content/IA/intuit.ipp.anywhere-1.3.1.js')
+    script.
+        intuit.ipp.anywhere.setup({
+                grantUrl: '#{grantUrl}',
+                datasources:
+                    {
+                        quickbooks : true,
+                        payments : false
+                    }
+            }
+        );
+  body
+    block content
