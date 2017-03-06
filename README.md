@@ -1,2 +1,2 @@
-# Inuit-Oauth-2017
-A working inuit oauth for 2017
+# Intuit-Oauth-2017
+A working intuit oauth for 2017
